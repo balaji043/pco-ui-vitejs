@@ -1,0 +1,10 @@
+.ActiveSessionTop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.Button {
+  width: auto;
+}

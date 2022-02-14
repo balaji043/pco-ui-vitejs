@@ -1,0 +1,18 @@
+.Login {
+  padding: 4rem 4rem;
+  background-color: var(--col-secondary);
+  box-shadow: 0px 0px 5px 5px var(--col-primary);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Error {
+  color: var(--col-error);
+}

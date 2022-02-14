@@ -1,0 +1,22 @@
+.MirroSessionContainer {
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  margin-top: 1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: var(--col-secondary);
+}
+.ViewMirrorSessionsTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Label {
+  margin-right: 2rem;
+}
+
+.TabButtons {
+  display: flex;
+  gap: 10px;
+}

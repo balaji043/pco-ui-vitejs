@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --col-primary: #4c6baf;
+  --col-secondary: rgb(111, 195, 228);
+  --col-primary-dark: #243064;
+  --col-disabled: #747974;
+  --col-error: rgb(158, 42, 42);
+}
+
+.App {
+  height: 100vh;
+  overflow: hidden;
+  background-color: skyblue;
+  min-width: 400px;
+  overflow-x: auto;
+}
+
+.Container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Button {
+  background-color: var(--col-primary);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ActiveButton {
+  background-color: var(--col-primary-dark);
+}
+.Button:hover {
+  background-color: var(--col-primary-dark);
+}
+.Button:disabled {
+  background-color: var(--col-disabled);
+}
+.LinkButton {
+  border: 1px solid var(--col-primary-dark);
+  padding: 0.5rem 1rem;
+  display: block;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+input,
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.FullWidth {
+  width: 100%;
+}

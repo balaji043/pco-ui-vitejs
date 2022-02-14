@@ -1,0 +1,15 @@
+.TableWrapper {
+  overflow-x: auto;
+}
+
+.Table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.TD,
+.TH {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 1rem;
+}
